@@ -35,16 +35,8 @@ These features are described by the current B7 source package. This does not mea
 
 ## Installation and updates
 
-APK files and release-specific notes will be added when ready. **No APK has been published in this repository yet.** Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.
-
-## Home Assistant — in development
-
-A dedicated key-based integration is being developed in [Tur Home Assistant](https://github.com/trondtorsoe/Tur---HA-integrasjon). It is not ready to install. Planned sharing is read-only access to your own approved activity figures, without group data or GPS. MQTT work is deferred.
-
-English documentation does not mean the entire Android interface has been translated. Norwegian and English support is planned first for the new integration and key setup.
+**No APK has been published in this repository yet.** Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.
 
 ## Privacy and this repository
 
 This repository is for public documentation, release notes and APK distribution. App and server source code remain private. Do not upload personal activity data, GPS tracks, credentials, keys, databases or production logs here, including in public issues.
-
-Only the separate Home Assistant integration source code is intended for public publication.
