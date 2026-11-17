@@ -2,51 +2,57 @@
 
 [English](README.md) | [Norsk](README.nb.md)
 
-> **BETA — under active development. This is not a thoroughly tested product. Expect bugs, incomplete features and changes.**
+**Current stable Android release: 0.21, published 17 November 2026.** The separate Home Assistant integration remains beta (0.20.2b3); Homey 0.1.1 is a local test package.
 
-Tur records everyday activity and outings on Android, helps you follow your progress and lets you choose what to share with others.
+Tur records everyday activity and outings on Android, helps you follow your progress and lets you choose what to share.
 
-## Activity and outings
+## Install and update
 
-- Automatic activity recording using the phone's sensors, with background recording subject to Android permissions and battery restrictions.
-- Steps and daily activity totals, activity distance, elevation gain and training minutes.
-- Recorded outings with GPS maps, speed and elevation information where available.
-- Activity goals, calculated activity points and progress over time.
-- History organised by day, week, month and year, with summaries and charts.
-- Manual activity entries for exercise without the phone, with editing and deletion.
+**[Download Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)** · [Google Drive download](https://drive.google.com/file/d/1vfG6mN2VA35m9yOT5zL-tuLASahVqNlX/view)
+
+Install **Tur.apk** over your existing app. Do not uninstall first: local records and settings should be retained. Version 0.21 (Android version code 37) upgrades both stable 0.20 and beta B10. **Tur-beta.apk is still the previous 0.20 B10**, not the current stable release.
+
+You can also use **Settings → Check for app updates** in Tur. App updates do not require a PC. Server administrators can select the signed **tur-oppdater.py** under **Administration → Server update** in the phone app, or use the supplied **LastOpp-Tur.ps1** from their synced Drive folder. Server administration requires an administrator key; ordinary users do not need to update the server.
+
+## New in 0.21
+
+- The home icon opens the main menu at the upper left; menu search is at the upper right. Search includes nested functions such as feedback and shows their full menu path.
+- Advanced view can be enabled by tapping the **Tur** heading inside the open main menu ten times, then waiting for the prompt.
+- All 56 feature tips show a menu path. **Show more / Show less** expands explanations and a simple path illustration. Read timestamps and hidden-tip choices survive content revisions.
+- Outing details have **Back to outing list** and a poodle toggle labelled **Uten hund / Med hund** (Without dog / With dog). The matching poodle appears in tips and on dog outings in the list. The flag survives recording updates and does not change points or measurements.
+- Ongoing movement below 500 metres belongs under **Movement**, rather than recent outings.
+- Home Assistant sharing supports selected figures, app group names, and revocable keys. Expected rejection of an invalid or revoked key no longer creates a server program-error report.
+
+## Activity, outings and journeys
+
+- Automatic recording with phone sensors; background recording depends on Android permissions and battery restrictions.
+- Steps and daily totals, activity distance, known ascent, training minutes, goals and calculated points.
+- GPS routes, speed and elevation information where available; history by day, week, month and year.
+- Manual exercise entries with editing and deletion.
+- Car, train, boat and bus transport legs retain travel details without activity credit.
+- Combine compatible saved activity and transport legs into a journey. Originals remain available and count once in activity totals.
+- Half-hour activity breakdowns follow existing sharing choices and require compatible clients and fresh uploaded data.
 
 ## Groups and optional sharing
 
-- Create groups, invite people and compare shared activity and goal achievement.
-- Share selected outings and activity periods; app installation links and group invitations are separate.
-- Personal viewing links work without joining a group. Choose expiry, name visibility and optional GPS sharing.
-- Group viewing links show a member as Anonymous unless name display has been approved. GPS permission is separate.
-- Viewing links can be revoked. A recipient's saved copy cannot be recalled.
-- GPS start/end masking reduces location exposure but does not guarantee anonymity.
+Create groups, invite others, and compare shared measured activity and goal achievement separately. App installation links and group invitations are separate functions.
 
-## B7 beta features
+Share selected outings or periods through revocable viewing links. Personal links do not require group membership. Name visibility and GPS sharing need separate permission; group links show Anonymous unless name display is approved. Start/end masking reduces location exposure but does not guarantee anonymity. Revoking a link cannot recall a copy already saved by a recipient.
 
-These features are described by the current B7 source package. This does not mean the package has been installed on the production server or tested on a physical phone.
+## Home Assistant and Homey
 
-- Half-hour activity breakdowns follow existing activity-sharing choices. Compatible clients and server software are required; stable 0.20 does not send half-hour breakdowns.
-- Car, train, boat and bus transport legs retain route and travel details without contributing activity credit.
-- Combine compatible saved legs into a journey, including different activities and transport. Original legs remain available and are counted once in activity totals.
-- A dedicated Share my activity entry and separate name/GPS consent for viewing links.
+In Tur: **Groups and sharing → Home Assistant**. Choose your own figures, create a read-only key and paste it into the integration. Optional own leadership covers today, the last 7 and last 30 days; other members' names and figures are not exported.
 
-## B8: Home Assistant and menu search
+[Home Assistant setup and current test status](https://github.com/trondtorsoe/Tur---HA-integrasjon). Requires Home Assistant 2026.11 or newer. Tur is currently installed from its repository link, not listed in the default Marketplace catalog. Integration 0.20.2b3 has been tested with Tur app/server 0.21; integration and Android version numbers are independent.
 
-- **Menu → Search** finds available functions as you type, shows their menu path and follows your user level. Group or outing selection appears where needed.
-- **Groups and sharing → Home Assistant** shares your selected own daily figures through a dedicated, revocable key.
-- Optional own leadership status covers today, the last 7 and the last 30 days, separating measured activity and goal achievement. No other members' names or figures are exported.
-- The new sharing setup and Home Assistant integration support English and Norwegian. The rest of the Android app is not fully translated.
-- [Home Assistant setup and beta limitations](https://github.com/trondtorsoe/Tur---HA-integrasjon).
+Homey 0.1.1 is a separate local test package with an installation guide, not a published Homey App Store app. Physical Homey testing remains outstanding. The HA/Homey sharing setup and HA integration support English and Norwegian; the Android app is not fully translated.
 
-B8 is an optional beta. The server must be updated with its matching package before the new Home Assistant connection works. Stable 0.20 users are not forced to update.
+## Verification and limitations
 
-## Installation and updates
+The 0.21 release passed 217 server tests, 14 Android database/menu tests, Android Java regression checks including 129 search entries and all 56 tips, 11 tests against actual Home Assistant 2026.11 over local TLS, and 17 Homey tests against the 0.21 server. APK signing and alignment, signed server-package integrity, and upgrade preservation were checked.
 
-**[Download Tur 0.20 B8 APK](https://drive.google.com/file/d/1XXxspnAR8W0Kc5zFWoHol59_F2ru-6PH/view).** The APK is hosted on Google Drive. The matching B8 server package must be installed by the server administrator before Home Assistant sharing works. No APK is stored directly in this repository yet. Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.
+User-confirmed HA behaviour includes matching figures, sharing-choice changes, app group names and icon, key replacement and revocation, and no new unknown placeholder sensors. Manual confirmation of 7/30-day comparisons, later automatic sensor creation, restart/rename history preservation and local aliases remains outstanding. These checks do not constitute physical testing of every Android screen or Homey hardware.
 
 ## Privacy and this repository
 
-This repository is for public documentation, release notes and APK distribution. App and server source code remain private. Do not upload personal activity data, GPS tracks, credentials, keys, databases or production logs here, including in public issues.
+This repository contains public documentation and download links. App and server source remain private. Do not post personal activity data, GPS tracks, credentials, keys, databases or production logs, including in public issues.
