@@ -33,6 +33,16 @@ These features are described by the current B7 source package. This does not mea
 - Combine compatible saved legs into a journey, including different activities and transport. Original legs remain available and are counted once in activity totals.
 - A dedicated Share my activity entry and separate name/GPS consent for viewing links.
 
+## B8: Home Assistant and menu search
+
+- **Menu → Search** finds available functions as you type, shows their menu path and follows your user level. Group or outing selection appears where needed.
+- **Groups and sharing → Home Assistant** shares your selected own daily figures through a dedicated, revocable key.
+- Optional own leadership status covers today, the last 7 and the last 30 days, separating measured activity and goal achievement. No other members' names or figures are exported.
+- The new sharing setup and Home Assistant integration support English and Norwegian. The rest of the Android app is not fully translated.
+- [Home Assistant setup and beta limitations](https://github.com/trondtorsoe/Tur---HA-integrasjon).
+
+B8 is an optional beta. The server must be updated with its matching package before the new Home Assistant connection works. Stable 0.20 users are not forced to update.
+
 ## Installation and updates
 
 **No APK has been published in this repository yet.** Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.

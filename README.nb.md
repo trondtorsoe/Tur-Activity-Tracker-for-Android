@@ -33,6 +33,16 @@ Disse funksjonene er beskrevet i gjeldende B7-kildepakke. Det betyr ikke at pakk
 - Samle passende lagrede etapper til en reise med ulike aktiviteter og transport. Originaletappene beholdes og telles én gang i aktivitetssummene.
 - Egen inngang for Del min aktivitet og separat samtykke til navn og GPS på visningslenker.
 
+## B8: Home Assistant og menysøk
+
+- **Meny → Søk** finner funksjoner mens du skriver, viser menyplassering og følger brukernivået ditt. Du velger gruppe eller tur der det er nødvendig.
+- **Grupper og deling → Home Assistant** deler valgte egne dagstall med en egen nøkkel som kan trekkes tilbake.
+- Valgfri egen lederstatus dekker i dag, siste 7 og siste 30 dager, med målt aktivitet og måloppnåelse hver for seg. Andres navn og tall eksporteres ikke.
+- Nytt delingsoppsett og Home Assistant-integrasjonen støtter norsk og engelsk. Resten av Android-appen er ikke fullstendig oversatt.
+- [Oppsett for Home Assistant og begrensninger i betaen](https://github.com/trondtorsoe/Tur---HA-integrasjon/blob/main/README.nb.md).
+
+B8 er en frivillig beta. Serveren må oppdateres med tilhørende pakke før den nye Home Assistant-koblingen virker. Stabile 0.20-brukere tvinges ikke til å oppdatere.
+
 ## Installasjon og oppdateringer
 
 **Ingen APK er publisert i dette repoet ennå.** Installer oppdateringer over eksisterende app for å beholde lokale registreringer; ikke avinstaller først. Les versjonsnotater og kjente begrensninger før betainstallasjon.
