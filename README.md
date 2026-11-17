@@ -45,7 +45,7 @@ B8 is an optional beta. The server must be updated with its matching package bef
 
 ## Installation and updates
 
-**No APK has been published in this repository yet.** Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.
+**[Download Tur 0.20 B8 APK](https://drive.google.com/file/d/1XXxspnAR8W0Kc5zFWoHol59_F2ru-6PH/view).** The APK is hosted on Google Drive. The matching B8 server package must be installed by the server administrator before Home Assistant sharing works. No APK is stored directly in this repository yet. Install updates over the existing app to preserve local records; do not uninstall first. Read release notes and known limitations before installing a beta.
 
 ## Privacy and this repository
 

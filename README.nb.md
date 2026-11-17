@@ -45,7 +45,7 @@ B8 er en frivillig beta. Serveren må oppdateres med tilhørende pakke før den 
 
 ## Installasjon og oppdateringer
 
-**Ingen APK er publisert i dette repoet ennå.** Installer oppdateringer over eksisterende app for å beholde lokale registreringer; ikke avinstaller først. Les versjonsnotater og kjente begrensninger før betainstallasjon.
+**[Last ned Tur 0.20 B8 APK](https://drive.google.com/file/d/1XXxspnAR8W0Kc5zFWoHol59_F2ru-6PH/view).** APK-filen ligger på Google Disk. Administrator må installere tilhørende B8-serverpakke før Home Assistant-delingen virker. Installer over eksisterende app, ikke avinstaller først.
 
 ## Personvern og dette repoet
 
