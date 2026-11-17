@@ -35,16 +35,8 @@ Disse funksjonene er beskrevet i gjeldende B7-kildepakke. Det betyr ikke at pakk
 
 ## Installasjon og oppdateringer
 
-APK-filer og versjonsnotater legges til når utgaven er klar. **Ingen APK er publisert i dette repoet ennå.** Installer oppdateringer over eksisterende app for å beholde lokale registreringer; ikke avinstaller først. Les versjonsnotater og kjente begrensninger før betainstallasjon.
-
-## Home Assistant — under utvikling
-
-En egen nøkkelbasert integrasjon utvikles i [Tur Home Assistant](https://github.com/trondtorsoe/Tur---HA-integrasjon). Den er ikke klar til installasjon. Planlagt deling gir bare lesetilgang til dine egne godkjente aktivitetstall, uten gruppedata eller GPS. MQTT-arbeidet utsettes.
-
-Engelsk dokumentasjon betyr ikke at hele Android-grensesnittet er oversatt. Norsk og engelsk planlegges først for den nye integrasjonen og nøkkeloppsettet.
+**Ingen APK er publisert i dette repoet ennå.** Installer oppdateringer over eksisterende app for å beholde lokale registreringer; ikke avinstaller først. Les versjonsnotater og kjente begrensninger før betainstallasjon.
 
 ## Personvern og dette repoet
 
 Repoet brukes til offentlig dokumentasjon, versjonsnotater og distribusjon av APK-filer. App- og serverkildekode holdes privat. Ikke last opp personlige aktivitetstall, GPS-spor, innlogging, nøkler, databaser eller produksjonslogger her, heller ikke i offentlige feilrapporter.
-
-Bare kildekoden til den separate Home Assistant-integrasjonen er planlagt publisert offentlig.
