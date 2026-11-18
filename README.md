@@ -8,7 +8,7 @@ Tur records everyday activity and outings on Android, helps you follow your prog
 
 ## Install and update
 
-**[Download Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)** · [Google Drive download](https://drive.google.com/file/d/1vfG6mN2VA35m9yOT5zL-tuLASahVqNlX/view)
+**[Download Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
 
 Install **Tur.apk** over your existing app. Do not uninstall first: local records and settings should be retained. Version 0.21 (Android version code 37) upgrades both stable 0.20 and beta B10. **Tur-beta.apk is still the previous 0.20 B10**, not the current stable release.
 
