@@ -8,7 +8,7 @@ Tur registrerer hverdagsaktivitet og turer på Android, hjelper deg å følge ut
 
 ## Installasjon og oppdatering
 
-**[Last ned Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)** · [Last ned fra Google Disk](https://drive.google.com/file/d/1vfG6mN2VA35m9yOT5zL-tuLASahVqNlX/view)
+**[Last ned Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
 
 Installer **Tur.apk** over eksisterende app. Ikke avinstaller først: lokale registreringer og innstillinger skal beholdes. 0.21 (Android-versjonskode 37) oppgraderer både stabil 0.20 og beta B10. **Tur-beta.apk er fortsatt forrige 0.20 B10**, ikke gjeldende hovedversjon.
 
