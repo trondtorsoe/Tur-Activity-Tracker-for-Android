@@ -6,6 +6,14 @@
 
 Tur records everyday activity and outings on Android, helps you follow your progress and lets you choose what to share.
 
+## Tur 0.22 release notes
+
+The 0.22 stable build has been prepared. The download below follows the version published on the Tur server.
+
+- Sponsored campaigns rotate on the home screen. Closing the compact sponsor row hides it for 24 hours. Administrators can configure multiple sponsors, choose stable and beta visibility independently, and share date-based reports with CSV downloads.
+- Release history combines changes from the 0.21 beta series and shows entries relevant to your role. Menu search and tips lead to the feature.
+- The beta series added private outing photo albums, updated activity selection and registration, number wheels, language selection, group cards and sharing settings, location maps and participant colours, revocable outing links, remote setup help with codes, and targeted stable or beta update offers.
+
 ## Install and update
 
 **[Download Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
