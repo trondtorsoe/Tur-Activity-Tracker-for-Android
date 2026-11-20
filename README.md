@@ -2,13 +2,19 @@
 
 [English](README.md) | [Norsk](README.nb.md)
 
-**Current stable Android release: 0.21, published 17 November 2026.** The separate Home Assistant integration remains beta (0.20.2b3); Homey 0.1.1 is a local test package.
+**Latest stable Android release: 0.23 (version code 84).** The separate Home Assistant integration remains beta (0.20.2b3); Homey 0.1.1 is a local test package.
 
 Tur records everyday activity and outings on Android, helps you follow your progress and lets you choose what to share.
 
-## Tur 0.22 release notes
+## Tur 0.23 release notes
 
-The 0.22 stable build has been prepared. The download below follows the version published on the Tur server.
+- The sponsor overview shows status, views, clicks and a weekly chart. Administrators can share reports, preview and select campaign images, create sponsor pages and receive image suggestions.
+- Sponsors can use campaign tracking (UTM) with an optional campaign name. Existing UTM values are preserved. Administrators can preview sponsor links.
+- The sponsor banner has smoother transitions, improved spacing and manual browsing. Hidden sponsors can be shown again. Visibility for beta users is configurable per sponsor.
+- Administrators can share a single internal build via a 24-hour link. The recipient confirms installation in Android.
+- Tur’s release history collects the changes from 0.22 B1–B14.
+
+## Tur 0.22 release notes
 
 - Sponsored campaigns rotate on the home screen. Closing the compact sponsor row hides it for 24 hours. Administrators can configure multiple sponsors, choose stable and beta visibility independently, and share date-based reports with CSV downloads.
 - Release history combines changes from the 0.21 beta series and shows entries relevant to your role. Menu search and tips lead to the feature.
@@ -16,9 +22,9 @@ The 0.22 stable build has been prepared. The download below follows the version 
 
 ## Install and update
 
-**[Download Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
+**[Download Tur 0.23 APK](Tur-0.23.apk?raw=true)**
 
-Install **Tur.apk** over your existing app. Do not uninstall first: local records and settings should be retained. Version 0.21 (Android version code 37) upgrades both stable 0.20 and beta B10. **Tur-beta.apk is still the previous 0.20 B10**, not the current stable release.
+Install **Tur.apk** over your existing app. Do not uninstall first: local records and settings should be retained. 0.23 has a higher version code than 0.22 B14.
 
 You can also use **Settings → Check for app updates** in Tur. App updates do not require a PC. Server administrators can select the signed **tur-oppdater.py** under **Administration → Server update** in the phone app, or use the supplied **LastOpp-Tur.ps1** from their synced Drive folder. Server administration requires an administrator key; ordinary users do not need to update the server.
 

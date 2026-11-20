@@ -2,13 +2,19 @@
 
 [Norsk](README.nb.md) | [English](README.md)
 
-**Gjeldende stabile Android-utgave: 0.21, publisert 17.11.2026.** Den separate Home Assistant-integrasjonen er fortsatt beta (0.20.2b3). Homey 0.1.1 er en lokal testpakke.
+**Nyeste stabile Android-utgave: 0.23 (versjonskode 84).** Den separate Home Assistant-integrasjonen er fortsatt beta (0.20.2b3). Homey 0.1.1 er en lokal testpakke.
 
 Tur registrerer hverdagsaktivitet og turer på Android, hjelper deg å følge utviklingen din og lar deg velge hva du deler.
 
-## Nytt i Tur 0.22
+## Nytt i Tur 0.23
 
-Det stabile 0.22-bygget er klart. Nedlastingen nedenfor følger versjonen som er publisert på Tur-serveren.
+- Sponsoroversikten viser status, antall visninger og klikk og en ukegraf. Rapporter kan deles, og administrator kan forhåndsvise og velge kampanjebilder, opprette sponsorsider og ta imot bildeforslag.
+- Sponsorene kan ha kampanjesporing (UTM) med valgfritt kampanjenavn. Eksisterende UTM-verdier beholdes. Administrator kan forhåndsvise sponsorlenkene.
+- Sponsorbanneret har roligere bildebytte, riktig plass og mulighet til å bla. Skjulte sponsorer kan vises igjen. Visning for betabrukere styres per sponsor.
+- Administrator kan dele én internutgave via en 24-timers lenke. Mottakeren bekrefter installasjonen i Android.
+- Versjonshistorikken i Tur samler endringene fra 0.22 B1–B14.
+
+## Nytt i Tur 0.22
 
 - Sponsorkampanjer rullerer på forsiden. Lukker du den minimerte sponsorraden, skjules visningen i 24 timer. Administrator kan opprette flere sponsorer, styre visning i stabil og beta hver for seg og dele datofilterte rapporter med CSV.
 - Versjonshistorikken samler endringene fra 0.21-betaene og viser oppføringer for rollen din. Menysøk og tips tar deg til funksjonen.
@@ -16,9 +22,9 @@ Det stabile 0.22-bygget er klart. Nedlastingen nedenfor følger versjonen som er
 
 ## Installasjon og oppdatering
 
-**[Last ned Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
+**[Last ned Tur 0.23 APK](Tur-0.23.apk?raw=true)**
 
-Installer **Tur.apk** over eksisterende app. Ikke avinstaller først: lokale registreringer og innstillinger skal beholdes. 0.21 (Android-versjonskode 37) oppgraderer både stabil 0.20 og beta B10. **Tur-beta.apk er fortsatt forrige 0.20 B10**, ikke gjeldende hovedversjon.
+Installer **Tur.apk** over eksisterende app. Ikke avinstaller først: lokale registreringer og innstillinger skal beholdes. 0.23 har høyere versjonskode enn 0.22 B14.
 
 Du kan også bruke **Innstillinger → Se etter appoppdatering** i Tur. Appoppdatering krever ikke PC. Serveradministrator kan velge den signerte **tur-oppdater.py** under **Administrasjon → Serveroppdatering** i telefonappen, eller bruke **LastOpp-Tur.ps1** fra sin synkroniserte Drive-mappe. Serveradministrasjon krever administratornøkkel; vanlige brukere trenger ikke oppdatere serveren.
 
