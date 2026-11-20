@@ -6,6 +6,14 @@
 
 Tur registrerer hverdagsaktivitet og turer på Android, hjelper deg å følge utviklingen din og lar deg velge hva du deler.
 
+## Nytt i Tur 0.22
+
+Det stabile 0.22-bygget er klart. Nedlastingen nedenfor følger versjonen som er publisert på Tur-serveren.
+
+- Sponsorkampanjer rullerer på forsiden. Lukker du den minimerte sponsorraden, skjules visningen i 24 timer. Administrator kan opprette flere sponsorer, styre visning i stabil og beta hver for seg og dele datofilterte rapporter med CSV.
+- Versjonshistorikken samler endringene fra 0.21-betaene og viser oppføringer for rollen din. Menysøk og tips tar deg til funksjonen.
+- Betaene ga private turbilder, oppdatert aktivitetsvalg og registrering, tallhjul, språkvalg, gruppekort og delingsvalg, kart og personfarger, tilbakekallbare turlenker, fjernhjelp med kode og målrettede oppdateringstilbud.
+
 ## Installasjon og oppdatering
 
 **[Last ned Tur 0.21 APK](https://tur.fjernkontroll.eu/Tur.apk)**
